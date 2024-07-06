@@ -28,7 +28,8 @@ export default function Home() {
         {/* Hero section */}
         <Hero id='home'/>
         {/* about section */}
-        <About id='about'/>
+        <div id='about' className='relative top-52'></div>
+        <About id = 'about' />
         {/* skilss section */}
         <Skilss/>
         {/*  Project Sections*/}
