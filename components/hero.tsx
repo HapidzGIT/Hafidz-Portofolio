@@ -26,9 +26,9 @@ export const Hero : React.FC<HeroProps>= ({id}) => {
             </Link>
           </div>
           <div className="w-full lg:w-[35%] self-end px-4 ">
-            <div className="relative mt-10 top-10 lg:top lg:mt-0 xl:right-7 md:right-0">
+            <div className="relative mt-3 top-12 lg:top-0 lg:mt-0 xl:right-7 md:right-0">
               <img src="./hapis.png" alt="not showing" className="max-w-full mx-auto rounded-full overflow-hidden bg-gradient-to-r lg:w-[500px] w-[310px]  from-blue-500 bg-sky-400 to-cyan-400 " data-aos-delay='400' data-aos='fade-up' />
-              <div className="absolute top-2 -z-10 bg-sky-500/30 h-[410px] max-w-[500px] mx-auto inset-8 blur-3xl rounded-full"></div>
+              <div className="absolute lg:top-0 top-5 -z-10 bg-sky-500/30 h-[410px] max-w-[500px] mx-auto inset-8 blur-3xl rounded-full"></div>
             </div>
           </div>
         </div>

@@ -5,10 +5,10 @@ export const Project = () => {
         <div className="container">
           <div className="w-full px-4 mb-16">
             <div className="text-center font-semibold">
-              <h2 className="text-2xl mb-5 md:text-3xl lg:text-5xl">
+              <h2 className="text-3xl mb-5 md:text-4xl lg:text-5xl">
                 Projects i&apos;ve <span className="text-primary">Created</span>
               </h2>
-              <p className="font-medium px-4 md:text-xl lg:text-2xl">Some of the projects I have made to increase my skills</p>
+              <p className="font-medium px-4 text-lg md:text-2xl lg:text-2xl">Some of the projects I have made to increase my skills</p>
             </div>
           </div>
           <div className="flex flex-wrap w-full px-4 justify-center gap-8" data-aos="fade-up" data-aos-duration="1000">
@@ -154,7 +154,7 @@ export const Project = () => {
                 <img src="./Slicing-design.png" className="h-full" alt="foto-kelas" width="w-full" />
               </div>
               <h3 className="font-bold mb-3 mt-5 text-2xl px-2">Marketing Website</h3>
-              <p className="font-extralight leading-relaxed tracking-[2px] px-2">i built this as a practice for me when i learned  html and css and i finally made this website.</p>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">i built this as a practice for me when i learned html and css and i finally made this website.</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out px-3">
                   <img src="./1667px-Figma-logo.svg.png" alt="react" />
