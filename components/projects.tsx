@@ -137,7 +137,7 @@ export const Project = () => {
                 <img src="./Pokemon.png" className="h-full" alt="foto-kelas" width="w-full" />
               </div>
               <h3 className="font-bold mb-3 mt-5 text-2xl px-2">Pokemon List</h3>
-              <p className="font-extralight leading-relaxed tracking-[2px] px-2">My First Commercial Design for one of the universities in the city of Bogor and really helped improve my design skills, because I learned from the project.</p>
+              <p className="font-extralight leading-relaxed tracking-[2px] px-2">This is a list of Pokemon along with some of the abilities that each Pokemon has, which I consumed the fire from poke-api</p>
               <div className="flex gap-x-2 px-2">
                 <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out px-3">
                   <img src="./1667px-Figma-logo.svg.png" alt="react" />
