@@ -90,7 +90,7 @@ export const Project = () => {
                 </div>
               </div>
               <div className="my-4 mx-3 mb-7">
-                <a href="https://hafidz-movie-list.vercel.app/" target="_blank" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
+                <a href="https://dribbble.com/shots/24373399-UIKA-UNIVERSITY" target="_blank" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
                   Lihat
                 </a>
               </div>
