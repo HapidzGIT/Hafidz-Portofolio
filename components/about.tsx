@@ -33,16 +33,12 @@ export const About: React.FC<AboutProps> = ({ id }) => {
                 Hello everyone, my name is Muhammad Hafidz Furqon, I was born in Bogor and this is a glimpse of me, I am a student majoring in software and game development and I have create some website development also web design, I am
                 committed to working and can develop experience in IT field.
               </p>
-              <button className="border px-5 py-2 hover:bg-primary transition duration-300 ease-in-out text-lg">Download CV</button>
+              <a href='/Muhammad Hafidz CV.pdf' download className="border px-5 py-2 hover:bg-primary transition duration-300 ease-in-out text-lg">Download CV</a>
             </div>
             <div className="w-full lg:w-1/2 flex md:justify-normal justify-center my-9 lg:my-0 relative">
               <div className="absolute max-w-full px-2 bg-primary shadow left-2 z-10 top-2 rounded-md flex h-7 items-center justify-center font-medium" data-aos="fade-up">
                 <CiCalendarDate className="w-5" />
                 18 Januari 2007
-              </div>
-              <div className="absolute w-[90px] bg-primary shadow -right-3 z-10 top-10 rounded-md flex h-7 items-center justify-center font-medium lg:right-20" data-aos="fade-up">
-                <FaPerson className="w-5" />
-                ENFJ
               </div>
               <div className="absolute w-[90px] bg-primary shadow left-0 z-10 -bottom-0 rounded-md flex h-7 items-center justify-center font-medium text-md px-2" data-aos="fade-up">
                 <LuGamepad2 className="w-5" />

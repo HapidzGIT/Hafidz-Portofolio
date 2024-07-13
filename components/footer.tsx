@@ -9,7 +9,9 @@ export const Footer = () => {
               <p className="text-2xl font-semibold mb-3">
                 Contact <span className="text-primary">Me</span>
               </p>
-              <p className="font-semibold tracking-[2px] ">hpsgaming212@gmail.com</p>
+                <p className="font-semibold tracking-[2px]">
+                  muhammadhafidzfurqon27<span className="block">@gmail.com</span>
+                </p>
             </div>
             <div className="w-full px-4 md:w-1/3 mt-10">
               <h3 className="text-3xl font-bold mb-3 ">Follow Me On</h3>
@@ -71,7 +73,7 @@ export const Footer = () => {
                 </svg>
               </a>
               <a href="https://www.linkedin.com/in/muhammad-hafidz-furqon-78b3312a6/" target="_blank" className="border rounded-full border-abu w-9 h-9 flex items-center justify-center hover:bg-primary hover:border-slate-300 text-white ">
-                <svg role="img" width="20"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-linkedin">
+                <svg role="img" width="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin">
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                   <rect width="4" height="12" x="2" y="9" />
                   <circle cx="4" cy="4" r="2" />

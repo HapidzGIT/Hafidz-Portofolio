@@ -22,17 +22,20 @@ export const Skilss = () => {
                   <a href="#" className="py-3 max-w-10">
                     <img src="./iduLChSb1a.jpeg" alt="react" className="rounded-md" />
                   </a>
-                  <a href="#" className="py-3 max-w-10">
+                  <a href="#" className="py-3 max-w-10 rounded-md overflow-hidden">
                     <img src="./Unofficial_JavaScript_logo_2.svg.png" alt="react" />
+                  </a>
+                  <a href="#" className="py-3 max-w-10">
+                    <img src="./typescript-svg.png" alt="react" />
                   </a>
                 </div>
                 <h1 className="font-extrabold text-3xl">Front <span className="text-primary">end</span></h1>
-                <h2 className="max-w-xl text-md font-medium">
+                <h2 className="max-w-xl text-md font-medium leading-[1.800]">
                 I usually use several languages ​​for the front-end to create intuitive and eye-catching designs for web, such as CSS, React, Vue, Next, Tailwind and Javascript also Typescript for a big project.</h2>
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/3" data-aos='fade-up'>
-              <div className="mt-16 border p-4 rounded-md border-primary hover:scale-110 transition duration-500 ease-in-out hover:shadow-primary">
+              <div className="mt-16 border p-4 rounded-md  border-primary hover:scale-110 transition duration-500 ease-in-out hover:shadow-primary">
                 <div className="flex gap-x-3">
                   <a href="#" className="py-4 max-w-10">
                     <img src="./Laravel.svg.png" alt="react" />
@@ -42,7 +45,7 @@ export const Skilss = () => {
                   </a>
                 </div>
                 <h1 className="font-extrabold text-3xl">Back <span className="text-primary">end</span></h1>
-                <h2 className="max-w-xl text-md font-medium">
+                <h2 className="max-w-xl text-md font-medium ">
                For the backend i usually create a restful api using several languages ​​such as laravel and node js, then I can consume it for my front end, so that i can create a web application that can handle on back end side.</h2>
               </div>
             </div>
