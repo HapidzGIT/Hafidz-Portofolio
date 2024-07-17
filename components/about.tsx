@@ -45,7 +45,7 @@ export const About: React.FC<AboutProps> = ({ id }) => {
                 <LuGamepad2 className="w-5" />
                 Futsal
               </div>
-              <Image src="/hapis-2.jpg" alt="image" width={500} height={500} className="w-[400px] relative top-0 rounded-md lg:w-[500px]" data-aos="flip-left" />
+              <Image src="./hapis-2.jpg" alt="image" width={500} height={500} className="w-[400px] relative top-0 rounded-md lg:w-[500px]" data-aos="flip-left" />
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export const Footer = () => {
                 Contact <span className="text-primary">Me</span>
               </p>
                 <p className="font-semibold tracking-[2px]">
-                  muhammadhafidzfurqon27<span className="block">@gmail.com</span>
+                  muhammadhafidz<span className="block">furqon27@gmail.com</span>
                 </p>
             </div>
             <div className="w-full px-4 md:w-1/3 mt-10">

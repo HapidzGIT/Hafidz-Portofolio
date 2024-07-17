@@ -34,7 +34,7 @@ export const Skilss = () => {
                 </div>
                 <h1 className="font-extrabold text-3xl">Front <span className="text-primary">end</span></h1>
                 <h2 className="max-w-xl text-md font-medium leading-[1.800]">
-                  I usually use several languages ​​for the front-end to create intuitive and eye-catching designs for web, such as CSS, React, Vue, Next, Tailwind and Javascript also Typescript for a big project.
+                  I usually use several languages ​​for the front-end to create intuitive and eye-catching designs for web, such as CSS, React, Vue, Next, Tailwind and Javascript also Typescript.
                 </h2>
               </div>
             </div>
