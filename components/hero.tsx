@@ -43,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
           <div className="w-full lg:w-[35%] self-end px-4">
             <div className="relative mt-3 top-12 lg:top-0 lg:mt-0 xl:right-7 md:right-0">
               <Image
-                src="./hapis.png"
+                src="./Hafidzzz.png"
                 alt="Muhammad Hafidz"
                 width={500}
                 height={500}

@@ -126,9 +126,9 @@ export const Contact: React.FC = () => {
                       Click here to send me an email
                     </a>
                   </p>
-                  <p className="flex items-center gap-x-3 text-lg font-medium tracking-[2px] hover:text-slate-800 transition duration-300 ease-in-out hover:cursor-pointer">
+                  <a href={`https://wa.me/6289518001464`} target='_blank' className="flex items-center gap-x-3 text-lg font-medium tracking-[2px] hover:text-slate-800 transition duration-300 ease-in-out hover:cursor-pointer">
                     <FaWhatsapp className="w-[40px] h-[10vh] lg:w-[20px]" /> {info.no_telp}
-                  </p>
+                  </a>
                   <p className="flex items-center gap-x-3 text-lg font-medium tracking-[2px] hover:text-slate-800 transition duration-300 ease-in-out hover:cursor-pointer">
                     <FaCity className="w-[40px] h-[10vh] lg:w-[20px]" /> {info.addres}
                   </p>

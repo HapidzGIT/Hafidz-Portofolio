@@ -1,12 +1,15 @@
+import Image from "next/image";
+
 export const Footer = () => {
   return (
     <>
       <section className="pt-20 pb-20 bg-footer">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center border-slate-600 border-b-2 pb-10">
-            <div className="w-full px-4 md:w-1/3 mt-10">
-              <h3 className="text-5xl font-bold mb-3">Hafidz</h3>
-              <p className="text-2xl font-semibold mb-3">
+            <div className="w-full px-4 md:w-1/3 mt-10 leading-relaxed">
+            <Image src="/Logo.png" alt="React" width={100} height={20} />
+              <h3 className="text-5xl font-bold">Hafidz</h3>
+              <p className="text-2xl font-semibold">
                 Contact <span className="text-primary">Me</span>
               </p>
                 <p className="font-semibold tracking-[2px]">

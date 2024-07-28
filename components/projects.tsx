@@ -24,17 +24,17 @@ export const Project = () => {
               <>
                 <div className="max-w-full mx-auto p-8 rounded-md fixed top-0 z-10 bg-white">
                   <iframe
-                    className="lg:w-[800px] w-[300px] h-[400px] mt-5"
+                    className="lg:w-[800px] w-[100%] h-[400px] mt-5"
                     src="https://www.youtube.com/embed/YNqbrcF40Z4?si=tCRKbI9n2fF12hOm"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
-                  >
-  
-                  </iframe>
-                  <button onClick={handleClick} className="text-2xl z-20 absolute top-5 right-5 text-black">X</button>
+                  ></iframe>
+                  <button onClick={handleClick} className="text-2xl z-20 absolute top-5 right-5 text-black">
+                    X
+                  </button>
                 </div>
               </>
             )}
@@ -62,11 +62,11 @@ export const Project = () => {
                 </a>
               </div>
             </div>
-            <div className="mb-12 lg:w-1/3 max-w-md border border-primary shadow-primary rounded-md shadow">
+            <div className="mb-12 lg:w-1/3 max-w-md border border-primary shadow-primary rounded-md shadow ">
               <div className="rounded-md overflow-hidden ">
                 <Image src="./Foto-kelas.png" alt="Information System Classmeet" width={600} height={400} />
               </div>
-              <h3 className="font-bold mb-3 mt-4 text-2xl px-2">My Class Website</h3>
+              <h3 className="font-bold mb-6 mt-4 text-2xl px-2">My Class Website <span className='block my-1'>XI PPLG 3</span></h3>
               <p className="font-extralight leading-relaxed tracking-[2px] px-2">
                 This is my class website that I have created with my friends, this website aims to introduce our class to visitors as well as a place for collecting data and student projects.
               </p>
